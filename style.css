@@ -47,14 +47,17 @@ h4 {
 }
 
 .divider-line-wraper {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .divider-line {
     height: 2px;
-    width: 13%;
-    background-color: #f8b803
+    width: 6%;
+    background-color: #f8b803;
+
 }
 
 
@@ -202,7 +205,7 @@ a:hover {
     background: white;
     z-index: 0;
     font-family: "Work sans" sans-serif;
-    text-align: center;
+    
 }
 
 carousel-store-b-sell{
@@ -236,3 +239,20 @@ carousel-store-b-sell{
  
 }
 
+.choices{
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.best-selling-text{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.best-selling-block{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
